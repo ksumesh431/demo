@@ -1,0 +1,194 @@
+keyname 
+
+RDS endpoint
+
+
+[rg19tx-jobs-ssh-connect]
+client = no
+accept = 0.0.0.0:50123
+connect = gw-a.rg19tx.ferp.io:10002
+cert = /etc/stunnel/stunnel.pem
+[whcopa-pd-db]
+client = yes
+accept = 0.0.0.0:50124
+connect = gw-a.whcopa.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[corvor-pd-db]
+client = yes
+accept = 0.0.0.0:50125
+connect = gw-a.corvor.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[capede-pd-db]
+client = yes
+accept = 0.0.0.0:50126
+connect = gw-a.capede.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[ironut-pd-db]
+client = yes
+accept = 0.0.0.0:50127
+connect = gw-a.ironut.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[lincor-pd-db]
+client = yes
+accept = 0.0.0.0:50128
+connect = gw-a.lincor.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[oxfoms-pd-db]
+client = yes
+accept = 0.0.0.0:50129
+connect = gw-a.oxfoms.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[yorkpa-pd-db]
+client = yes
+accept = 0.0.0.0:50130
+connect = gw-a.yorkpa.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[austtx-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50131
+connect = gw-a.austtx-new.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[brpsma-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50132
+connect = gw-a.brpsma.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[erpa2c-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50133
+connect = gw-a.erpa2c.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[alditx-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50134
+connect = gw-a.alditx.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[lubbtx-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50135
+connect = gw-a.lubbtx.ferp.io:10002
+cert = /etc/stunnel/stunnel.pem
+[lubbtz-env1-erp-db]
+client = yes
+accept = 0.0.0.0:50136
+connect = gw-a.lubbtx.ferp.io:10003
+cert = /etc/stunnel/stunnel.pem
+[slsdor-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50137
+connect = gw-a.slsdor.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[fabetx-new-pd-db]
+client = yes
+accept = 0.0.0.0:50138
+connect = gw-a.fabetx-new.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[fabetx-new-pd-db-ssh]
+client = yes
+accept = 0.0.0.0:30022
+connect = gw-a.fabetx-new.ferp.io:30022
+cert = /etc/stunnel/stunnel.pem
+[ccsdia-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50139
+connect = gw-a.ccsdia.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[gusdca-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50140
+connect = gw-a.gusdca.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[srcsca-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50141
+connect = gw-a.srcsca.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[newtia-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50142
+connect = gw-a.newtia.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[austtx-env2-erp-db]
+client = yes
+accept = 0.0.0.0:50143
+connect = gw-a.austtx-new.ferp.io:10000
+cert = /etc/stunnel/stunnel.pem
+[alditx-env1-db]
+client = yes
+accept = 0.0.0.0:50144
+connect = gw-a.alditx.ferp.io:10002
+cert = /etc/stunnel/stunnel.pem
+[alditx-env2-db]
+client = yes
+accept = 0.0.0.0:50145
+connect = gw-a.alditx.ferp.io:10003
+cert = /etc/stunnel/stunnel.pem
+[hslcor-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50146
+connect = gw-a.hslcor.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[abiltx-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50147
+connect = gw-a.abiltx.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[shertx-pd-erp-db]
+client = yes
+accept = 0.0.0.0:50148
+connect = gw-a.shertx.ferp.io:10001
+cert = /etc/stunnel/stunnel.pem
+[arlitx-env2-db]
+client = yes
+accept = 0.0.0.0:50149
+connect = gw-a.arlitx.ferp.io:50003
+cert = /etc/stunnel/stunnel.pem
+[willmn-pd-db]
+client = yes
+accept = 0.0.0.0:50150
+connect = gw-a.willmn.ferp.io:50001
+cert = /etc/stunnel/stunnel.pem
+[austtx-env1-erp-db]
+client = yes
+accept = 0.0.0.0:50151
+connect = gw-a.austtx-new.ferp.io:10002
+cert = /etc/stunnel/stunnel.pem
+####### keep these at the end
+11:51
+cat /etc/stunnel/stunnel.conf
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bash.
+
+gw-a_ip=<IP>
+gw-b_ip=<IP>
+client_id=willtx     gw-a..ferp.io
+
+1. First check for gw-a and gw-b entries in route 53
+		if: the entries are there, prompt to user, that entries can be seen and we need to overwrite:
+		else: create the enteries
+
+2. Client tunnels : cd /etc/stunnel/stunnel.conf 
+- Analyze the last port number user and increment it by 1
+- add lines: 
+
+[willtx-pd-db]
+client = yes
+accept = 0.0.0.0:50043
+connect = gw-a.willtx.ferp.io:<incremented port)
+cert = /etc/stunnel/stunnel.pem
+
+- stunnel restart.
+Output:
+- Telnet connected connection succesfull.
